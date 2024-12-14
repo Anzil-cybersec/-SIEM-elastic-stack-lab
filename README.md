@@ -5,13 +5,6 @@ This project walks you through setting up a home lab for **Elastic Stack Securit
 
 
 
-# -SIEM-elastic-stack-lab
-A Security Information and Event Management (SIEM) solution built using the Elastic Stack (Elasticsearch, Kibana, Logstash, Beats). This project collects, processes, and analyzes security event logs, providing real-time threat detection, visualizations, and dashboards for security monitoring
-
-# Elastic SIEM Home Lab
-
-This project walks you through setting up a home lab for **Elastic Stack Security Information and Event Management (SIEM)** using the **Elastic Cloud** platform and a **Kali Linux** virtual machine (VM). The goal of this project is to generate security events on the Kali VM, forward them to the Elastic SIEM instance, and analyze the logs.
-
 ## Prerequisites
 
 Before getting started, ensure you have the following:
