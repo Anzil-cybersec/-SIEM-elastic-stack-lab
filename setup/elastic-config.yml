@@ -1,0 +1,15 @@
+# elastic-agent configuration
+agents:
+  - name: "Kali-VM"
+    enabled: true
+    output:
+      elasticsearch:
+        hosts: ["https://<your_elastic_url>:9200"]
+        username: "elastic"
+        password: "<your_password>"
+    logging:
+      level: "info"
+      json: true
+    fleet:
+      id: "<fleet_server_id>"
+      url: "https://<fleet_server_url>"
