@@ -51,7 +51,7 @@ To generate security events:
    ```bash
    sudo apt-get install nmap
 
-##Task 5: Query Security Events in Elastic SIEM
+## Task 5: Query Security Events in Elastic SIEM
 
 1. Go to Logs under Observability in Kibana.
 2. Use the query : event.action:"nmap_scan"
@@ -63,7 +63,7 @@ To generate security events:
 2. Create a new dashboard and add a visualization (e.g., Area chart for event counts over time).
 3. Save the dashboard
 
-##Task 7: Create an Alert
+## Task 7: Create an Alert
 
 1. Navigate to Alerts under Security.
 2. Create a new custom rule with the query:event.action:"nmap_scan"
